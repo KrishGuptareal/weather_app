@@ -1,0 +1,88 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #e0f7fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    height: 350px;
+    width: 400px;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+header {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem;
+}
+
+input {
+    height: 1rem;
+    width: 227px;
+    padding: 8px;
+    border-radius: .5rem;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px;
+    border-radius: .5rem;
+    border: 0;
+    background-color: #007BFF;
+}
+
+.search {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.des {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #666666;
+    font-size: 1.2rem;
+}
+
+.temp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF5722;
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    font-size: 1rem;
+    color: #444;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.in_info {
+    display: flex;
+    align-items: center;
+}

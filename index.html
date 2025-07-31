@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>🌤️ Weather App</header>
+        <div class="search">
+            <input type="text" placeholder="Enter city Name...">
+            <button class="icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="des">
+            <div class="temp">
+                <i class="fa-solid fa-cloud-sun"></i>
+                <p id="temperature">25°C</p>
+            </div>
+            <p id="description">Partly cloudy</p>
+        </div>
+        <div class="info">
+            <div class="in_info">
+                <i class="fa-solid fa-location-crosshairs"></i>
+                <p id="location">Location: Delhi</p>
+            </div>
+            <div class="in_info">
+                <i class="fa-solid fa-wind"></i>
+                <p id="wind">Wind: 10 km/h</p>
+            </div>
+            <div class="in_info">
+                <i class="fa-solid fa-droplet"></i>
+                <p id="humid">Humidity: 78%</p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
